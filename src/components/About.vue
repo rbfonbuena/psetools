@@ -1,8 +1,10 @@
 <template>
   <div class="tab-panel">
     <h2 class="tab-panel__title">What is PSETools?</h2>
-    <p><strong>PSETools</strong> was created as a learning exercise for <a href="https://vuejs.org/" title="VueJS" rel="nofollow" target="_blank">Vue</a>, a javascript framework, and to also address a personal need to have all the trading information and tools in one place.</p>
-    <p>For the curious, the source code is available on <a href="https://github.com/rbfonbuena/psetools" title="PSETools on GitHub">GitHub</a>.</p>
+    <p><strong>PSETools</strong> or <strong>Philippine Stock Exchange Tools</strong> was created as a learning exercise for the <a href="https://vuejs.org/" title="VueJS" rel="nofollow" target="_blank">Vue</a> javascript framework, and to address a personal need to have the basic trading information and tools in one place.</p>
+
+    <p>For the curious, the source code is available on <a href="https://github.com/rbfonbuena/psetools" title="PSETools on GitHub" rel="nofollow" target="_blank">GitHub</a>.</p>
+
     <h3>Technologies Used</h3>
     <div id="techs">
       <a href="https://vuejs.org/" title="VueJS" rel="nofollow" target="_blank"><img src="static/images/logo-vue.svg" alt="Vue Logo"></a>
