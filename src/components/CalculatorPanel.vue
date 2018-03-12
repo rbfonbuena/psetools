@@ -62,7 +62,7 @@
 
       <el-row :gutter="20">
         <el-col>
-          <el-collapse v-model="activeSection" @change="toggleSection">
+          <el-collapse v-model="activeSection">
             <el-collapse-item name="1">
               <template slot="title">
                 <strong>Total Buying Price: {{ totalBuyAmount | currency('') }}</strong>
@@ -191,26 +191,19 @@ export default {
     }
   },
   methods: {
-    toggleSection (section) {
-      console.log(section)
-    },
     computeProfit () {
       if (this.totalBuyAmount !== 0 && this.totalSellAmount !== 0) {
         this.netProfit = this.totalSellAmount - this.totalBuyAmount
         this.percentChange = ((this.totalSellAmount - this.totalBuyAmount) / this.totalBuyAmount) * 100
-
         if (this.netProfit < 0) {
           this.isProfit = false
           this.isLoss = true
-          this.netType = ' Loss'
         } else if (this.netProfit > 0) {
           this.isProfit = true
           this.isLoss = false
-          this.netType = ' Profit'
         } else {
           this.isProfit = false
           this.isLoss = false
-          this.netType = ''
         }
       } else {
         this.netProfit = 0
@@ -219,29 +212,44 @@ export default {
         this.isLoss = false
       }
     },
+    getCommission (amount) {
+      let brokerCommission = amount * (this.tradeCalc.commission / 100)
+      if (brokerCommission > 0 && brokerCommission < 20) {
+        brokerCommission = 20
+      }
+      return brokerCommission
+    },
+    setTotalFees (amount, type = 'buy') {
+      switch (type) {
+        case 'sell':
+          this.sellingFees.vat = this.sellingFees.brokers * FEES.VAT
+          this.sellingFees.pse = amount * FEES.PSE
+          this.sellingFees.sccp = amount * FEES.SCCP
+          this.sellingFees.salesTax = amount * FEES.SALES_TAX
+          this.sellingFees.total = this.sellingFees.brokers + this.sellingFees.vat + this.sellingFees.pse + this.sellingFees.sccp + this.sellingFees.salesTax
+          this.totalSellAmount = amount - this.sellingFees.total
+          break
+        default:
+          this.buyingFees.vat = this.buyingFees.brokers * FEES.VAT
+          this.buyingFees.pse = amount * FEES.PSE
+          this.buyingFees.sccp = amount * FEES.SCCP
+          this.buyingFees.total = this.buyingFees.brokers + this.buyingFees.vat + this.buyingFees.pse + this.buyingFees.sccp
+          this.totalBuyAmount = amount + this.buyingFees.total
+          break
+      }
+    },
     computeBuyAmount () {
       let amount = this.tradeCalc.shares * this.tradeCalc.buyingPrice
       this.grossBuyAmount = amount
-      this.buyingFees.brokers = amount * (this.tradeCalc.commission / 100)
-      this.buyingFees.vat = this.buyingFees.brokers * FEES.VAT
-      this.buyingFees.pse = amount * FEES.PSE
-      this.buyingFees.sccp = amount * FEES.SCCP
-      let totalFees = this.buyingFees.brokers + this.buyingFees.vat + this.buyingFees.pse + this.buyingFees.sccp
-      this.buyingFees.total = totalFees
-      this.totalBuyAmount = amount + totalFees
+      this.buyingFees.brokers = this.getCommission(amount)
+      this.setTotalFees(amount)
       this.computeProfit()
     },
     computeSellAmount () {
       let amount = this.tradeCalc.shares * this.tradeCalc.sellingPrice
       this.grossSaleAmount = amount
-      this.sellingFees.brokers = amount * (this.tradeCalc.commission / 100)
-      this.sellingFees.vat = this.sellingFees.brokers * FEES.VAT
-      this.sellingFees.pse = amount * FEES.PSE
-      this.sellingFees.sccp = amount * FEES.SCCP
-      this.sellingFees.salesTax = amount * FEES.SALES_TAX
-      let totalFees = this.sellingFees.brokers + this.sellingFees.vat + this.sellingFees.pse + this.sellingFees.sccp + this.sellingFees.salesTax
-      this.sellingFees.total = totalFees
-      this.totalSellAmount = amount - totalFees
+      this.sellingFees.brokers = this.getCommission(amount)
+      this.setTotalFees(amount, 'sell')
       this.computeProfit()
     },
     updateShares (value) {
