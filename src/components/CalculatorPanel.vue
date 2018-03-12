@@ -71,7 +71,7 @@
               <div>
                 <table class="fee-schedule-table" cellpadding="8" cellspacing="0">
                   <tr>
-                    <td>Gross Share Amount</td>
+                    <td>Gross Trade Amount</td>
                     <td align="right">{{ grossBuyAmount | currency('') }}</td>
                   </tr>
                   <tr>
@@ -105,7 +105,7 @@
               <div>
                 <table class="fee-schedule-table" cellpadding="8" cellspacing="0">
                   <tr>
-                    <td>Gross Share Value</td>
+                    <td>Gross Trade Amount</td>
                     <td align="right">{{ grossSaleAmount | currency('') }}</td>
                   </tr>
                   <tr>
@@ -138,7 +138,7 @@
           </el-collapse>
         </el-col>
         <el-col>
-          <h2 class="net-profit">Net{{ netType }}: <span :class="{ profit: isProfit, loss: isLoss }">{{ netProfit | currency('') }} ({{ percentChange | currency('') }}%)</span></h2>
+          <h2 class="net-profit">Net Profit: <span :class="{ profit: isProfit, loss: isLoss }">{{ netProfit | currency('') }} ({{ percentChange | currency('') }}%)</span></h2>
         </el-col>
       </el-row>
 
