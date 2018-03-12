@@ -62,67 +62,83 @@
 
       <el-row :gutter="20">
         <el-col>
-          <table class="fee-schedule-table" cellpadding="8" cellspacing="0">
-            <tr>
-              <td>Gross Share Amount</td>
-              <td align="right">{{ grossBuyAmount | currency('') }}</td>
-            </tr>
-            <tr>
-              <td>Broker's Fee</td>
-              <td align="right">{{ buyingFees.brokers | currency('') }}</td>
-            </tr>
-            <tr>
-              <td>12% Value-added Tax (VAT)</td>
-              <td align="right">{{ buyingFees.vat | currency('') }}</td>
-            </tr>
-            <tr>
-              <td>PSE Transaction Fee</td>
-              <td align="right">{{ buyingFees.pse | currency('') }}</td>
-            </tr>
-            <tr>
-              <td>SCCP Fee</td>
-              <td align="right">{{ buyingFees.sccp | currency('') }}</td>
-            </tr>
-            <tr>
-              <td><strong>Total Buying Fees</strong></td>
-              <td align="right"><strong>{{ buyingFees.total | currency('') }}</strong></td>
-            </tr>
-            <tr>
-              <td colspan="2" align="center"><strong>Total Buying Price: {{ totalBuyAmount | currency('') }}</strong></td>
-            </tr>
-            <tr>
-              <td>Gross Share Value</td>
-              <td align="right">{{ grossSaleAmount | currency('') }}</td>
-            </tr>
-            <tr>
-              <td>Broker's Fee</td>
-              <td align="right">{{ sellingFees.brokers | currency('') }}</td>
-            </tr>
-            <tr>
-              <td>12% Value-added Tax (VAT)</td>
-              <td align="right">{{ sellingFees.vat | currency('') }}</td>
-            </tr>
-            <tr>
-              <td>PSE Transaction Fee</td>
-              <td align="right">{{ sellingFees.pse | currency('') }}</td>
-            </tr>
-            <tr>
-              <td>SCCP Fee</td>
-              <td align="right">{{ sellingFees.sccp | currency('') }}</td>
-            </tr>
-            <tr>
-              <td>Sales Tax</td>
-              <td align="right">{{ sellingFees.salesTax | currency('') }}</td>
-            </tr>
-            <tr>
-              <td><strong>Total Selling Fees</strong></td>
-              <td align="right"><strong>{{ sellingFees.total | currency('') }}</strong></td>
-            </tr>
-            <tr>
-              <td colspan="2" align="center"><strong>Total Sale Price: {{ totalSellAmount | currency('') }}</strong></td>
-            </tr>
-          </table>
-          <h3 class="net-profit-loss">Net{{ netType }}: <span :class="{ profit: isProfit, loss: isLoss }">{{ netProfit | currency('') }} ({{ percentChange | currency('') }}%)</span></h3>
+          <el-collapse v-model="activeSection" @change="toggleSection">
+            <el-collapse-item name="1">
+              <template slot="title">
+                <strong>Total Buying Price: {{ totalBuyAmount | currency('') }}</strong>
+                <small>More details</small>
+              </template>
+              <div>
+                <table class="fee-schedule-table" cellpadding="8" cellspacing="0">
+                  <tr>
+                    <td>Gross Share Amount</td>
+                    <td align="right">{{ grossBuyAmount | currency('') }}</td>
+                  </tr>
+                  <tr>
+                    <td>Broker's Fee</td>
+                    <td align="right">{{ buyingFees.brokers | currency('') }}</td>
+                  </tr>
+                  <tr>
+                    <td>12% Value-added Tax (VAT)</td>
+                    <td align="right">{{ buyingFees.vat | currency('') }}</td>
+                  </tr>
+                  <tr>
+                    <td>PSE Transaction Fee</td>
+                    <td align="right">{{ buyingFees.pse | currency('') }}</td>
+                  </tr>
+                  <tr>
+                    <td>SCCP Fee</td>
+                    <td align="right">{{ buyingFees.sccp | currency('') }}</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Total Buying Fees</strong></td>
+                    <td align="right"><strong>{{ buyingFees.total | currency('') }}</strong></td>
+                  </tr>
+                </table>
+              </div>
+            </el-collapse-item>
+            <el-collapse-item name="2">
+              <template slot="title">
+                <strong>Total Sale Price: {{ totalSellAmount | currency('') }}</strong>
+                <small>More details</small>
+              </template>
+              <div>
+                <table class="fee-schedule-table" cellpadding="8" cellspacing="0">
+                  <tr>
+                    <td>Gross Share Value</td>
+                    <td align="right">{{ grossSaleAmount | currency('') }}</td>
+                  </tr>
+                  <tr>
+                    <td>Broker's Fee</td>
+                    <td align="right">{{ sellingFees.brokers | currency('') }}</td>
+                  </tr>
+                  <tr>
+                    <td>12% Value-added Tax (VAT)</td>
+                    <td align="right">{{ sellingFees.vat | currency('') }}</td>
+                  </tr>
+                  <tr>
+                    <td>PSE Transaction Fee</td>
+                    <td align="right">{{ sellingFees.pse | currency('') }}</td>
+                  </tr>
+                  <tr>
+                    <td>SCCP Fee</td>
+                    <td align="right">{{ sellingFees.sccp | currency('') }}</td>
+                  </tr>
+                  <tr>
+                    <td>Sales Tax</td>
+                    <td align="right">{{ sellingFees.salesTax | currency('') }}</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Total Selling Fees</strong></td>
+                    <td align="right"><strong>{{ sellingFees.total | currency('') }}</strong></td>
+                  </tr>
+                </table>
+              </div>
+            </el-collapse-item>
+          </el-collapse>
+        </el-col>
+        <el-col>
+          <h2 class="net-profit">Net{{ netType }}: <span :class="{ profit: isProfit, loss: isLoss }">{{ netProfit | currency('') }} ({{ percentChange | currency('') }}%)</span></h2>
         </el-col>
       </el-row>
 
@@ -141,6 +157,7 @@ export default {
   name: 'Calculator',
   data () {
     return {
+      activeSection: [],
       netType: '',
       isProfit: false,
       isLoss: false,
@@ -174,6 +191,9 @@ export default {
     }
   },
   methods: {
+    toggleSection (section) {
+      console.log(section)
+    },
     computeProfit () {
       if (this.totalBuyAmount !== 0 && this.totalSellAmount !== 0) {
         this.netProfit = this.totalSellAmount - this.totalBuyAmount
@@ -251,14 +271,19 @@ export default {
 <style lang="scss">
 @import '~element-ui/packages/theme-chalk/src/common/var';
 
-// html {
-//   color: $--color-text-primary;
-//   font-size: $--font-size-base;
-//   background-color: $--color-primary;
-// }
-// #app {
-//   font-family: 'Roboto', sans-serif;
-// }
+.section-title-icon {
+  color: $--color-primary;
+}
+.el-collapse-item__header {
+  font-size: 1.125rem;
+
+  small {
+    margin-left: 0.25rem;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    opacity: 0.4;
+  }
+}
 .el-input-number {
   width: 100%;
 }
@@ -269,16 +294,12 @@ export default {
 }
 .fee-schedule-table {
   width: 100%;
-  border: 1px solid $--border-color-base;
-  border-radius: $--border-radius-base;
 
-  tr {
-    &:nth-child(even) {
-      background-color: $--background-color-base; //lighten($--color-text-primary, 75%);
-    }
+  tr:nth-child(even) {
+    background-color: $--background-color-base; //lighten($--color-text-primary, 75%);
   }
 }
-.net-profit-loss {
+.net-profit {
   text-align: center;
 }
 .profit {
