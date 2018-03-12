@@ -99,7 +99,7 @@
             </el-collapse-item>
             <el-collapse-item name="2">
               <template slot="title">
-                <strong>Total Sale Price: {{ totalSellAmount | currency('') }}</strong>
+                <strong>Total Sale Amount: {{ totalSellAmount | currency('') }}</strong>
                 <small>More details</small>
               </template>
               <div>
