@@ -7,6 +7,9 @@
       <el-tab-pane label="Board Lot">
         <BoardLot />
       </el-tab-pane>
+      <el-tab-pane label="Stock Symbols">
+        <CompanyList />
+      </el-tab-pane>
       <el-tab-pane label="About PSETools">
         <About />
       </el-tab-pane>
@@ -28,6 +31,7 @@
 <script>
 import Calculator from '@/components/CalculatorPanel.vue'
 import BoardLot from '@/components/BoardLot.vue'
+import CompanyList from '@/components/CompanyList.vue'
 import About from '@/components/About.vue'
 import Footer from '@/components/Footer.vue'
 
@@ -36,6 +40,7 @@ export default {
   components: {
     Calculator,
     BoardLot,
+    CompanyList,
     About,
     Footer
   },
