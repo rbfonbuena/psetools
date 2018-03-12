@@ -64,6 +64,10 @@
         <el-col>
           <table class="fee-schedule-table" cellpadding="8" cellspacing="0">
             <tr>
+              <td>Gross Share Amount</td>
+              <td align="right">{{ grossBuyAmount | currency('') }}</td>
+            </tr>
+            <tr>
               <td>Broker's Fee</td>
               <td align="right">{{ buyingFees.brokers | currency('') }}</td>
             </tr>
@@ -85,6 +89,10 @@
             </tr>
             <tr>
               <td colspan="2" align="center"><strong>Total Buying Price: {{ totalBuyAmount | currency('') }}</strong></td>
+            </tr>
+            <tr>
+              <td>Gross Share Value</td>
+              <td align="right">{{ grossSaleAmount | currency('') }}</td>
             </tr>
             <tr>
               <td>Broker's Fee</td>
@@ -111,7 +119,7 @@
               <td align="right"><strong>{{ sellingFees.total | currency('') }}</strong></td>
             </tr>
             <tr>
-              <td colspan="2" align="center"><strong>Total Selling Price: {{ totalSellAmount | currency('') }}</strong></td>
+              <td colspan="2" align="center"><strong>Total Sale Price: {{ totalSellAmount | currency('') }}</strong></td>
             </tr>
           </table>
           <h3 class="net-profit-loss">Net{{ netType }}: <span :class="{ profit: isProfit, loss: isLoss }">{{ netProfit | currency('') }} ({{ percentChange | currency('') }}%)</span></h3>
@@ -140,6 +148,8 @@ export default {
       percentChange: 0,
       totalBuyAmount: 0,
       totalSellAmount: 0,
+      grossBuyAmount: 0,
+      grossSaleAmount: 0,
       buyingFees: {
         brokers: 0,
         pse: 0,
@@ -191,6 +201,7 @@ export default {
     },
     computeBuyAmount () {
       let amount = this.tradeCalc.shares * this.tradeCalc.buyingPrice
+      this.grossBuyAmount = amount
       this.buyingFees.brokers = amount * (this.tradeCalc.commission / 100)
       this.buyingFees.vat = this.buyingFees.brokers * FEES.VAT
       this.buyingFees.pse = amount * FEES.PSE
@@ -202,6 +213,7 @@ export default {
     },
     computeSellAmount () {
       let amount = this.tradeCalc.shares * this.tradeCalc.sellingPrice
+      this.grossSaleAmount = amount
       this.sellingFees.brokers = amount * (this.tradeCalc.commission / 100)
       this.sellingFees.vat = this.sellingFees.brokers * FEES.VAT
       this.sellingFees.pse = amount * FEES.PSE
