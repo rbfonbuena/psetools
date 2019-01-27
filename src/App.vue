@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img class="logo" src="./assets/logo.svg" alt="PSETools">
+    <img class="logo" src="@/assets/images/logo.svg" alt="PSETools">
     <router-view/>
   </div>
 </template>
@@ -11,7 +11,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .logo {
   display: block;
   width: 200px;

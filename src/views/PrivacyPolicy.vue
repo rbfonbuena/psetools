@@ -6,9 +6,6 @@
 
 <script>
 export default {
-  name: 'PrivacyPolicy',
-  data () {
-    return {}
-  }
+  name: 'PrivacyPolicy'
 }
 </script>

@@ -9,7 +9,7 @@
     <div class="subfooter">
       <h3>DISCLAIMER</h3>
       <p class="disclaimer">None of the tools and information contained on this site should be used or considered as financial advise or recommendations to buy securities and investments. Please consult with your licensed broker before making important financial decisions. The user assumes all risk associated with all the information taken from this website. PSETools shall not be liable for any damages and loss of profits as a result of using this website and/or any websites linked to this site.</p>
-      <p class="copyright">&copy; 2018 PSETools</p>
+      <p class="copyright">&copy; 2019 PSETools</p>
     </div>
   </div>
 </template>

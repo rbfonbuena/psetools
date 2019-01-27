@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import dataBoardLot from '@/data/boardlot.json'
+import dataBoardLot from '@/assets/data/boardlot.json'
 
 export default {
   name: 'BoardLot',

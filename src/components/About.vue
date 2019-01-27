@@ -7,20 +7,17 @@
 
     <h3>Technologies Used</h3>
     <div id="techs">
-      <a href="https://vuejs.org/" title="VueJS" rel="nofollow" target="_blank"><img src="static/images/logo-vue.svg" alt="Vue Logo"></a>
-      <a href="http://element.eleme.io/" title="Element" rel="nofollow" target="_blank"><img src="static/images/logo-element.svg" alt="Element Logo"></a>
-      <a href="https://nodejs.org/en/" title="NodeJS" rel="nofollow" target="_blank"><img src="static/images/logo-nodejs.svg" alt="NodeJS"></a>
-      <a href="https://webpack.js.org/" title="Webpack" rel="nofollow" target="_blank"><img src="static/images/logo-webpack.svg" alt="Webpack"></a>
+      <a href="https://vuejs.org/" title="VueJS" rel="nofollow" target="_blank"><img src="@/assets/images/logo-vue.svg" alt="Vue Logo"></a>
+      <a href="http://element.eleme.io/" title="Element" rel="nofollow" target="_blank"><img src="@/assets/images/logo-element.svg" alt="Element Logo"></a>
+      <a href="https://nodejs.org/en/" title="NodeJS" rel="nofollow" target="_blank"><img src="@/assets/images/logo-nodejs.svg" alt="NodeJS"></a>
+      <a href="https://webpack.js.org/" title="Webpack" rel="nofollow" target="_blank"><img src="@/assets/images/logo-webpack.svg" alt="Webpack"></a>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'About',
-  data () {
-    return {}
-  }
+  name: 'About'
 }
 </script>
 

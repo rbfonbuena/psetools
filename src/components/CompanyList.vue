@@ -35,8 +35,8 @@
 <script>
 // import dataCompanyList from '@/data/companylist.json'
 
-// const apiUrl = 'http://api.teamfonbuena.com/psetools/v1/stocks'
-const apiUrl = 'http://prj.psetools-api/v1/stocks'
+const api = 'https://api.teamfonbuena.com/psetools/v1/stocks'
+// const api = 'http://prj.psetools-api/v1/stocks'
 
 export default {
   name: 'CompanyList',
@@ -46,10 +46,9 @@ export default {
     }
   },
   mounted () {
-    fetch(apiUrl)
+    fetch(api)
       .then(response => response.json())
       .then(data => { this.stocks = data })
-      .catch(error => console.log(error))
   }
 }
 </script>

@@ -1,0 +1,1535 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"admin",
+				"admin_layout"
+			],
+			[
+				"He",
+				"HelloWeb"
+			],
+			[
+				"css",
+				"csssection\trbf_css-section"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"strip",
+				"strip_tags"
+			],
+			[
+				"cell",
+				"cellspacing\tAttr"
+			],
+			[
+				"get_style",
+				"get_stylesheet_directory_uri"
+			],
+			[
+				"wp_en",
+				"wp_enqueue_scripts"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"ini",
+				"ini_set"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"ani",
+				"animation-delay"
+			],
+			[
+				"che",
+				"checkered"
+			],
+			[
+				"sli",
+				"slideInRight"
+			],
+			[
+				"slide",
+				"slideInLeft"
+			],
+			[
+				"slideIn",
+				"slideInRight"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"fa",
+				"fadeIn"
+			],
+			[
+				"anim",
+				"animated"
+			],
+			[
+				"ch",
+				"checkered"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"target",
+				"targetOffset"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"scroll",
+				"scrollOffset"
+			],
+			[
+				"sr",
+				"scrollOffset"
+			],
+			[
+				"border-radiu",
+				"border-radius"
+			],
+			[
+				"inde",
+				"indent_size"
+			],
+			[
+				"edi",
+				"editorconfig\teditorconfig"
+			],
+			[
+				"edit",
+				"editorconfig\trbf_editorconfig"
+			],
+			[
+				"ed",
+				"editorconfig\trbf_editorconfig"
+			],
+			[
+				"article",
+				"articleFilter"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"flip",
+				"flipItem"
+			],
+			[
+				"border-",
+				"border-style"
+			],
+			[
+				"ease",
+				"ease-in-out"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"togg",
+				"toggleAnswer"
+			],
+			[
+				"quer",
+				"querySelectorAll"
+			],
+			[
+				"start",
+				"startDate"
+			],
+			[
+				"curer",
+				"currentDate"
+			],
+			[
+				"curren",
+				"currentTime"
+			],
+			[
+				"static2_action",
+				"static2_action_link"
+			],
+			[
+				"editor",
+				"editorconfig\trbf_editorconfig"
+			],
+			[
+				"int",
+				"interstitial"
+			],
+			[
+				"array_p",
+				"array_push"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"promo",
+				"promoButton"
+			],
+			[
+				"marin",
+				"margin-left"
+			],
+			[
+				"is-",
+				"is-fullheight"
+			],
+			[
+				"is",
+				"is-collapsed"
+			],
+			[
+				"chec",
+				"checkCookie"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"it",
+				"ItAllCounts"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"menu",
+				"menuToggle"
+			],
+			[
+				"border-top",
+				"border-top-left-radius"
+			],
+			[
+				"border-radius",
+				"border-top-right-radius"
+			],
+			[
+				"border-b",
+				"border-bottom-right-radius"
+			],
+			[
+				"border-radi",
+				"border-bottom-left-radius"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"filter_",
+				"filter_var"
+			],
+			[
+				"strto",
+				"strtoupper"
+			],
+			[
+				"valid_",
+				"valid_text"
+			],
+			[
+				"grey-",
+				"grey-lighter"
+			],
+			[
+				"filter",
+				"filter_var"
+			],
+			[
+				"ref",
+				"referer_url"
+			],
+			[
+				"get_parent",
+				"get_parent_category_slug"
+			],
+			[
+				"get_h",
+				"get_home_url"
+			],
+			[
+				"de",
+				"defaults"
+			],
+			[
+				"_curre",
+				"_current_terms"
+			],
+			[
+				"_current",
+				"_current_term"
+			],
+			[
+				"current",
+				"current_category"
+			],
+			[
+				"ta",
+				"taxonomy"
+			],
+			[
+				"div_",
+				"div_attr_classes"
+			],
+			[
+				"brow",
+				"browserSync"
+			],
+			[
+				"ven",
+				"vendorJs"
+			],
+			[
+				"site",
+				"siteJs"
+			],
+			[
+				"clean",
+				"cleanJs"
+			],
+			[
+				"bui",
+				"buildJs"
+			],
+			[
+				"Re",
+				"RewriteCond"
+			],
+			[
+				"Char",
+				"charity"
+			],
+			[
+				"backgr",
+				"background-position"
+			],
+			[
+				"Rer",
+				"RewriteRule"
+			],
+			[
+				"no",
+				"nowrap\twhite-space"
+			],
+			[
+				"q",
+				"querySelector"
+			],
+			[
+				"getElement",
+				"getElementsByTagName"
+			],
+			[
+				"s_c",
+				"s_charity_name"
+			],
+			[
+				"Virtual",
+				"VirtualDocumentRoot"
+			],
+			[
+				"align-",
+				"align-items\tproperty"
+			],
+			[
+				"sl",
+				"slideDown"
+			],
+			[
+				"consen",
+				"consentBox"
+			],
+			[
+				"first",
+				"firstChild"
+			],
+			[
+				"gel",
+				"getElementsByTagName"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"append",
+				"appendChild"
+			],
+			[
+				"mobile",
+				"s_mobile_label"
+			],
+			[
+				"s_p",
+				"s_phone_label"
+			],
+			[
+				"s_her",
+				"s_hero_video"
+			],
+			[
+				"b_",
+				"b_video"
+			],
+			[
+				"video",
+				"video-container"
+			],
+			[
+				"char",
+				"charity"
+			],
+			[
+				"ita",
+				"itallcounts"
+			],
+			[
+				"facebook",
+				"facebook-widget"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"partner",
+				"partner-logo"
+			],
+			[
+				"ma",
+				"max-height"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"prelander",
+				"prelander_partner"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"s_",
+				"s_headline"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"function",
+				"function_exists"
+			],
+			[
+				"getEleme",
+				"getElementsByTagName"
+			],
+			[
+				"bi",
+				"date_birth"
+			],
+			[
+				"post",
+				"post_code"
+			],
+			[
+				"scan",
+				"scan_upload_folder"
+			],
+			[
+				"theme",
+				"theme_slug"
+			],
+			[
+				"str_re",
+				"str_replace"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"Snippet: css",
+				"Snippet: SCSS Section comment - scsssection [tab]"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"upgrade package ",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"d",
+				"Package Control: Disable Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Configuration"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"color",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"mono",
+				"Boxy Theme: Configuration"
+			],
+			[
+				"A f",
+				"A File Icon: Revert to a Freshly Installed State"
+			],
+			[
+				"theme",
+				"Boxy Theme: Preferences"
+			],
+			[
+				"remve",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"pretti",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"lint ",
+				"SublimeLinter: Show Line Errors"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"lint",
+				"Preferences: SublimeLinter Key Bindings"
+			],
+			[
+				"gist",
+				"Gist: Create Private Gist"
+			],
+			[
+				"gulp",
+				"Gulp: Kill running tasks"
+			],
+			[
+				"ali",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"gu",
+				"Gulp: Show panel"
+			],
+			[
+				"",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"gul",
+				"Gulp"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade Package"
+			],
+			[
+				" pac",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"di",
+				"Package Control: Disable Package"
+			],
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Boxy",
+				"Boxy Theme: Activation"
+			],
+			[
+				"GIST",
+				"Gist: Open Gist in Browser"
+			],
+			[
+				"preview",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"gis",
+				"Gist: Insert Gist"
+			],
+			[
+				"dele",
+				"Gist: Delete Gist"
+			],
+			[
+				"open",
+				"Gist: Open Gist"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"fetc",
+				"Fetch: File"
+			],
+			[
+				"fe",
+				"Fetch: File"
+			],
+			[
+				"fetch",
+				"Fetch: File"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"sni",
+				"Snippet: SCSS Section comment - scsssection [tab]"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"de",
+				"DevDocs: Search From Input"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"packa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"mini",
+				"Minify Javascript to file"
+			],
+			[
+				"lore",
+				"LoremIpsum: (30) lots"
+			],
+			[
+				"lorem",
+				"LoremIpsum: (200) stick shake"
+			],
+			[
+				"align",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"lroe",
+				"LoremIpsum: (200) stick shake"
+			],
+			[
+				"hip",
+				"Hipster Ipsum: Occupy"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"alignm",
+				"Preferences: Alignment Key Bindings – User"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"ss",
+				"Set Syntax: CSS"
+			],
+			[
+				"line",
+				"Line Ending: Unix"
+			],
+			[
+				"html",
+				"Tidy HTML"
+			],
+			[
+				"tidy",
+				"TidyHTML"
+			],
+			[
+				"tid",
+				"TidyHTML"
+			],
+			[
+				"tod",
+				"Show TODOs: Open files only"
+			],
+			[
+				"show",
+				"Show TODOs: Open files only"
+			]
+		],
+		"width": 502.0
+	},
+	"console":
+	{
+		"height": 243.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"cls",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			" import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			" import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			" import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"view.settings().get('auto_indent')",
+			"sublime.settings()",
+			"view.settings().get('auto_indent')",
+			"print(sys.version)",
+			"sys.version",
+			"sys.version()",
+			"view.settings().get('auto_indent')",
+			"view.settings().set('auto_indent',False)",
+			"view.settings().set('auto_indent',false)",
+			"view.settings().get('auto_indent')",
+			"view.settings().set('auto_indent','false')",
+			"view.settings().get('auto_indent')",
+			"print(self.view.file_name().endswith('.py'))",
+			"print(view.file_name().endswith('.py'))",
+			"print(view.file_name().endswith('.tpl'))",
+			"print(view.file_name()).endswith('.tpl')",
+			"print(view.file_name())",
+			"print(view.file_name().lower().endswith('.py'))",
+			"print(view.file_name().lower())",
+			"print(view.file_name())",
+			"print(view.filename())",
+			"print(view.file_name().lower().endswith('.py'))",
+			"print(view.file_name().lower().endswith('.py')",
+			"print(view.file_name().lower())",
+			"print(view.file_name()).lower()",
+			"print(view.file_name()[-3:])",
+			"print(view.file_name()[-4:])",
+			"print(view.file_name())",
+			"print view.file_name()",
+			"self.view.file_name()",
+			"view.run_command(\"imsert_timestamp\")",
+			"clear",
+			"view.run_command(\"example\")",
+			"view.run_comman(\"example\")",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/E/projects/psetools/src/views/Main.vue",
+		"/E/projects/psetools/src/components/CalculatorPanel.vue",
+		"/E/projects/psetools/src/views/PrivacyPolicy.vue",
+		"/E/projects/psetools/src/components/Footer.vue",
+		"/E/projects/psetools/src/App.vue",
+		"/E/projects/psetools/src/components/About.vue",
+		"/E/projects/psetools/src/router.js",
+		"/E/projects/psetools/src/main.js",
+		"/E/projects/psetools/src/components/Header.vue",
+		"/E/projects/psetools/public/index.html",
+		"/E/projects/psetools/package.json",
+		"/E/projects/psetools/src/assets/scss/main.scss",
+		"/E/projects/psetools/src/components/CompanyList.vue",
+		"/E/projects/psetools/src/components/BoardLot.vue",
+		"/C/Users/Romano/AppData/Local/Temp/fz3temp-2/index.php",
+		"/C/Users/Romano/AppData/Local/Temp/fz3temp-2/database.php",
+		"/E/projects/psetools-api/html/index.php",
+		"/E/projects/psetools-old/package.json",
+		"/E/projects/psetools/.eslintrc.js",
+		"/E/workspace/phoenix.tutorial/hello/lib/hello_web/templates/layout/admin.html.eex",
+		"/E/workspace/phoenix.tutorial/hello/lib/hello_web/views/admin/page_view.ex",
+		"/E/workspace/phoenix.tutorial/hello/lib/hello_web/controllers/admin/user_controller.ex",
+		"/E/workspace/phoenix.tutorial/hello/lib/hello_web/templates/admin/page/index.html.eex",
+		"/E/workspace/phoenix.tutorial/hello/lib/hello_web/controllers/admin/page_controller.ex",
+		"/E/workspace/phoenix.tutorial/hello/lib/hello_web/router.ex",
+		"/E/workspace/phoenix.tutorial/hello/lib/hello_web/views/hello_view.ex",
+		"/E/workspace/phoenix.tutorial/hello/lib/hello_web/views/admin_view.ex",
+		"/E/workspace/phoenix.tutorial/hello/lib/hello_web/templates/hello/index.html.eex",
+		"/E/workspace/phoenix.tutorial/hello/lib/hello_web/controllers/hello_controller.ex",
+		"/E/workspace/phoenix.tutorial/hello/lib/hello_web/templates/admin/index.html.eex",
+		"/E/workspace/phoenix.tutorial/hello/lib/hello_web/templates/hello/show.html.eex",
+		"/C/bin/AcrylicDNS/AcrylicConfiguration.ini",
+		"/E/workspace/candu.net/html/new-flow/src/pages/index.njk",
+		"/E/workspace/candu.net/html/.editorconfig",
+		"/E/workspace/candu.net/html/new-flow/src/templates/global-variables.njk",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/index.php",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/index_heartresearchaustralia.tpl",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/header6.tpl",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/thankyou.html",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/index-4.html",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/index-3.html",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/index-2.html",
+		"/E/workspace/familysave.com.au/html/promos/index.html",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/index-1.html",
+		"/E/workspace/familysave.com.au/html/promos/css/style.css",
+		"/E/workspace/familysave.com.au/html/promos/src/scss/style.scss",
+		"/E/workspace/familysave.com.au/html/promos/node_modules/@fortawesome/fontawesome-pro/scss/_icons.scss",
+		"/E/workspace/familysave.com.au/html/promos/src/scss/_variables.scss",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/index_savethechildren.tpl",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/index_greenpeace_bight.tpl",
+		"/E/workspace/familysave.com.au/html/promos/src/scss/bootstrap.scss",
+		"/E/workspace/familysave.com.au/html/promos/thankyou.html",
+		"/E/workspace/familysave.com.au/html/CANDU/src/pages/thankyou.njk",
+		"/E/workspace/familysave.com.au/html/CANDU/src/scss/thankyou.scss",
+		"/E/workspace/familysave.com.au/html/CANDU/dist/thankyou.html",
+		"/E/workspace/familysave.com.au/html/CANDU/dist/css/minified/thankyou.css",
+		"/E/workspace/familysave.com.au/html/CANDU/src/scss/_variables.scss",
+		"/E/workspace/familysave.com.au/html/CANDU/gulpfile.js",
+		"/E/workspace/familysave.com.au/html/CANDU/existing-markup-backup/thankyou.html",
+		"/E/workspace/familysave.com.au/html/CANDU/src/scss/_frontpage.scss",
+		"/E/workspace/familysave.com.au/html/promos/candu-template.html",
+		"/E/workspace/familysave.com.au/html/promos/CANDU-reference-templates/index-first-page.html",
+		"/E/workspace/familysave.com.au/html/promos/candu-template-3.html",
+		"/E/workspace/familysave.com.au/html/promos/CANDU-templates/index-first-page.html",
+		"/E/workspace/familysave.com.au/html/promos/CANDU-templates/thankyou.html",
+		"/E/workspace/familysave.com.au/html/promos/candu-thankyou.html",
+		"/E/workspace/familysave.com.au/html/promos/candu-template-2.html",
+		"/E/workspace/familysave.com.au/html/promos/candu-template-1.html",
+		"/E/workspace/familysave.com.au/html/promos/candu-template-4.html",
+		"/E/workspace/familysave.com.au/html/promos/CANDU-templates/index-2_provider.html",
+		"/E/workspace/familysave.com.au/html/assets/.htaccess",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/.htaccess",
+		"/C/Users/Boyet/.npmrc",
+		"/C/Users/Boyet/AppData/Roaming/npm-cache/_logs/2018-09-01T15_27_02_083Z-debug.log",
+		"/C/Users/Boyet/AppData/Roaming/npm-cache/_logs/2018-09-01T15_30_08_526Z-debug.log",
+		"/E/workspace/familysave.com.au/html/promos/index-1.html",
+		"/E/workspace/familysave.com.au/html/promos/index-2.html",
+		"/E/workspace/familysave.com.au/html/promos/index-3.html",
+		"/E/workspace/familysave.com.au/html/promos/index-4.html",
+		"/E/workspace/familysave.com.au/html/promos/thank-you.html",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/.htaccess 2",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/.htpasswd",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/template-front-page.php",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/header.php",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/style.scss",
+		"/C/Users/Boyet/AppData/Roaming/Sublime Text 3/Packages/User/rbf_css-header-section.sublime-snippet",
+		"/C/Users/Boyet/AppData/Roaming/Sublime Text 3/Packages/User/rbf_css-section.sublime-snippet",
+		"/C/Users/Boyet/AppData/Roaming/Sublime Text 3/Packages/User/rbf_css-section-comment.sublime-snippet",
+		"/C/Users/Boyet/AppData/Roaming/Sublime Text 3/Packages/User/rbf_scss-section.sublime-snippet",
+		"/C/Users/Boyet/AppData/Roaming/Sublime Text 3/Packages/User/rbf_css_linesection-divider.sublime-snippet",
+		"/C/Users/Boyet/AppData/Roaming/Sublime Text 3/Packages/User/rbf_scss_section.sublime-snippet",
+		"/C/Users/Boyet/AppData/Roaming/Sublime Text 3/Packages/User/rbf_css_refreshjs.sublime-snippet",
+		"/C/Users/Boyet/AppData/Roaming/Sublime Text 3/Packages/User/rbf_css-section-divider.sublime-snippet",
+		"/C/Users/Boyet/AppData/Roaming/Sublime Text 3/Packages/User/rbf_css_header-divider.sublime-snippet",
+		"/E/xampp/apache/conf/extra/vhosts/default.conf",
+		"/D/Dropbox/Apps/Acrylic/AcrylicHosts.txt",
+		"/D/Dropbox/Apps/Acrylic/AcrylicConfiguration.ini",
+		"/E/workspace/familysave.com.au/html/banners/index.php",
+		"/E/workspace/familysave.com.au/html/banners/download.php",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/download.php",
+		"/E/workspace/familysave.com.au/html/edm/blue/index.html",
+		"/E/workspace/familysave.com.au/html/edm/pink/index.html",
+		"/E/workspace/familysave.com.au/html/edm/pink/edm.html",
+		"/E/workspace/familysave.com.au/html/edm/blue/edm.html",
+		"/E/workspace/familysave.com.au/html/edm/index.html",
+		"/E/workspace/familysave.com.au/html/content/themes/medicare-child/src/scss/style.scss",
+		"/E/workspace/familysave.com.au/html/content/themes/medicare-child/cf7-contact-form.html",
+		"/E/workspace/familysave.com.au/html/content/themes/medicare-child/functions.php",
+		"/E/workspace/familysave.com.au/html/content/themes/medicare-child/includes/shortcodes.php",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/.htaccess 3",
+		"/E/workspace/familysave.com.au/html/content/themes/medicare-child/js/app.js",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/.htaccess 5",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/.htaccess 4",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/shortcodes.php",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-3/functions.php",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/wp-config.php",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/wp-config 2.php",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/wp-config 3.php",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-3/wp-config.php",
+		"/E/workspace/familysave.com.au/html/content/themes/medicare-child/package.json",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/header5.tpl",
+		"/E/workspace/familysave.com.au/html/content/themes/medicare-child/includes/custom_menu_walker.php",
+		"/G/Movies/Truth.Or.Dare.2018.1080p.WEBRip.x264-[YTS.AM].srt",
+		"/E/workspace/familysave.com.au/html/index.php",
+		"/E/workspace/familysave.com.au/html/content/themes/medicare-child/src/scss/_variables.scss",
+		"/E/workspace/familysave.com.au/html/.htaccess",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/functions.php",
+		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/__header.php"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 135.0,
+		"where_history":
+		[
+			"E:\\workspace\\familysave.com.au\\html\\content\\themes\\medicare\\js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"apiUrl",
+			"faq",
+			"Health Compare",
+			"src=\"images/as-",
+			"<img src=\"images/",
+			"images",
+			"<h5 class=\"font-weight-bold\">",
+			"https://www.familysave.com.au/promos",
+			"src=\"images/provider",
+			"<div class=\"column col-sm-6\">",
+			"<div class=\"column_text\">",
+			"<div class=\"col-sm\">",
+			"edit",
+			"search",
+			"list",
+			"address",
+			"contact",
+			"checklist",
+			"thank",
+			"rename",
+			"advert",
+			"anchor_link",
+			"anchor_",
+			"phone",
+			"check",
+			"extend",
+			"<div class=\"invalid-feedback\"",
+			"url",
+			"backgroun",
+			"header",
+			"custom-input-group\">",
+			"//this.form.submit();",
+			"start",
+			"https://www.familysave.com.au/edm/pink/",
+			"src=\"https://www.familysave.com.au/edm/images",
+			"ec00",
+			"src=\"https://www.familysave.com.au/edm/images",
+			"src=\"https://www.familysave.com.au/edm/",
+			"My Health Compare",
+			"FamilySave.com.ay",
+			"My Health Compare",
+			"http://8thflooroffers.com/edm/mhc/images",
+			"http://www.competitionlovers.com.au/au/news/?l=2015&p=EMAIL",
+			"rf-fancySelect",
+			"btDropdown",
+			"btDropdownSelect",
+			"my_theme"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 47.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "psetools.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"E:\\workspace\\candu.dev\\CANDU-Templates.sublime-workspace"
+			],
+			[
+				"iac",
+				"E:\\workspace\\itallcounts.org\\IAC-COPE.sublime-project"
+			],
+			[
+				"home",
+				"E:\\workspace\\homesave.com.au\\HomeSave.sublime-project"
+			],
+			[
+				"cl",
+				"E:\\workspace\\clinicsearch.com.au\\ClinicSearch.sublime-project"
+			],
+			[
+				"fa",
+				"E:\\workspace\\familysave.com.au\\FamilySave.sublime-project"
+			],
+			[
+				"c",
+				"E:\\workspace\\clinicsearch.com.au\\ClinicSearch.sublime-project"
+			],
+			[
+				"cli",
+				"E:\\workspace\\clinicsearch.com.au\\ClinicSearch.sublime-project"
+			],
+			[
+				"joe",
+				"E:\\workspace\\joebananas.dev\\joebananas.sublime-project"
+			],
+			[
+				"hol",
+				"E:\\workspace\\holidaysave.com.au\\HLDS-WP.sublime-project"
+			],
+			[
+				"my",
+				"E:\\workspace\\myshippingguru.com\\myshippingguru.sublime-project"
+			],
+			[
+				"iac-c",
+				"E:\\workspace\\itallcounts.org\\IAC-COPE.sublime-project"
+			],
+			[
+				"oldis",
+				"E:\\workspace\\oldish.com.au\\Oldish-WP.sublime-project"
+			],
+			[
+				"old",
+				"E:\\workspace\\oldish.com.au\\Oldish-WP.sublime-project"
+			],
+			[
+				"lan",
+				"E:\\workspace\\#templates\\landing-pages\\LP-TEMPLATES.sublime-project"
+			],
+			[
+				"la",
+				"E:\\workspace\\#templates\\landing-pages\\LP-TEMPLATES.sublime-project"
+			],
+			[
+				"rr",
+				"E:\\workspace\\ratereview.com.au\\RATEREVIEW.sublime-project"
+			],
+			[
+				"mlc",
+				"E:\\workspace\\mylifecompare.com.au\\MLC.sublime-project"
+			],
+			[
+				"fsg",
+				"E:\\workspace\\freesamplegiveaway.com.au\\FSGAU-WP.sublime-project"
+			],
+			[
+				"mhc",
+				"E:\\workspace\\myhealthcompare.com.au\\MHC.sublime-project"
+			],
+			[
+				"ol",
+				"E:\\workspace\\oldish.com.au\\Oldish-COPE.sublime-project"
+			],
+			[
+				"aop",
+				"E:\\workspace\\aussieopinions.com.au\\AOP-WP.sublime-project"
+			],
+			[
+				"fs",
+				"E:\\workspace\\freesamplegiveaway.com.au\\FSGAU-WP.sublime-project"
+			],
+			[
+				"rat",
+				"E:\\workspace\\ratereview.com.au\\RATEREVIEW.sublime-project"
+			],
+			[
+				"ml",
+				"E:\\workspace\\mylifecompare.com.au\\MLC.sublime-project"
+			],
+			[
+				"oldi",
+				"E:\\workspace\\oldish.com.au\\Oldish-WP.sublime-project"
+			],
+			[
+				"rate",
+				"E:\\workspace\\ratereview.com.au\\RATEREVIEW.sublime-project"
+			],
+			[
+				"ra",
+				"E:\\workspace\\ratereview.com.au\\RATEREVIEW.sublime-project"
+			],
+			[
+				"mh",
+				"E:\\workspace\\myhealthcompare.com.au\\MHC.sublime-project"
+			],
+			[
+				"oldish",
+				"E:\\workspace\\oldish.com.au\\Oldish-WP.sublime-project"
+			],
+			[
+				"cg",
+				"E:\\workspace\\cataloguesgalore.com.au\\CGAU-WP.sublime-project"
+			],
+			[
+				"dw",
+				"E:\\workspace\\dwindle.com.au\\DWINDLE-WP.sublime-project"
+			],
+			[
+				"pp",
+				"E:\\workspace\\publicpracticecareers.com.au\\PPC-SITE.sublime-project"
+			],
+			[
+				"su",
+				"E:\\workspace\\survey\\SURVEY-templates.sublime-project"
+			],
+			[
+				"s",
+				"E:\\workspace\\survey\\SURVEY-templates.sublime-project"
+			],
+			[
+				"bt",
+				"E:\\workspace\\beautysave.com.au\\BTSAU-WP.sublime-project"
+			],
+			[
+				"a",
+				"E:\\workspace\\#templates\\ALTLP-templates.sublime-project"
+			],
+			[
+				"cla",
+				"E:\\workspace\\competitionlovers.com.au\\CLA-WP.sublime-project"
+			],
+			[
+				"b",
+				"E:\\workspace\\big4recruitment.com.au\\BIG4.sublime-project"
+			],
+			[
+				"mhmn",
+				"E:\\workspace\\milehighmarge.co.nz\\MHMNZ-WP.sublime-project"
+			],
+			[
+				"al",
+				"E:\\workspace\\#templates\\ALTLP-templates.sublime-project"
+			],
+			[
+				"p",
+				"E:\\workspace\\publicpracticecareers.com.au\\PPC-SITE.sublime-project"
+			],
+			[
+				"dwin",
+				"E:\\workspace\\dwindle.net\\DWINDLE-WP.sublime-project"
+			],
+			[
+				"ca",
+				"E:\\workspace\\catalogues.com\\CATALOG-WP.sublime-project"
+			],
+			[
+				"lp",
+				"E:\\workspace\\#templates\\LP-templates.sublime-project"
+			],
+			[
+				"wif",
+				"E:\\workspace\\wantitfree.com\\WIF-WP.sublime-project"
+			],
+			[
+				"wi",
+				"E:\\workspace\\wantitfree.com\\WIF-WP.sublime-project"
+			],
+			[
+				"fsgf",
+				"E:\\workspace\\freesamplegiveaway.fr\\FSGFR-WP.sublime-project"
+			],
+			[
+				"demo",
+				"E:\\workspace\\demo.local\\DEMO-WP.sublime-project"
+			],
+			[
+				"fsgfr",
+				"E:\\workspace\\freesamplegiveaway.fr\\FSGFR-WP.sublime-project"
+			],
+			[
+				"ts",
+				"E:\\workspace\\teamdollarsave.com\\TDS-WP.sublime-project"
+			],
+			[
+				"fsgn",
+				"E:\\workspace\\freesamplegiveaway.co.nz\\FSGNZ-WP.sublime-project"
+			],
+			[
+				"fsgca",
+				"E:\\workspace\\freesamplegiveaway.ca\\FSGCA-WP.sublime-project"
+			],
+			[
+				"ss",
+				"E:\\workspace\\sweepstakelovers.com\\SSL-WP.sublime-project"
+			],
+			[
+				"uk",
+				"E:\\workspace\\ukopinions.co.uk\\UKOP-WP.sublime-project"
+			],
+			[
+				"fsgc",
+				"E:\\workspace\\freesamplegiveaway.ca\\FSGCA-WP.sublime-project"
+			],
+			[
+				"cat",
+				"E:\\workspace\\cataloguesgalore.com.au\\CGAU-WP.sublime-project"
+			],
+			[
+				"senio",
+				"E:\\workspace\\seniorsave.com.au\\SENIOR-WP.sublime-project"
+			],
+			[
+				"fsguk",
+				"E:\\workspace\\freesamplegiveaway.co.uk\\FSGUK-WP.sublime-project"
+			],
+			[
+				"fsgu",
+				"E:\\workspace\\freesamplegiveaway.co.uk\\FSGUK-WP.sublime-project"
+			],
+			[
+				"pet",
+				"E:\\workspace\\petsave.com.au\\PETS-WP.sublime-project"
+			],
+			[
+				"gol",
+				"E:\\workspace\\golfsave.com.au\\GOLFS-WP.sublime-project"
+			],
+			[
+				"bs",
+				"E:\\workspace\\babysave.com.au\\BSAU-WP.sublime-project"
+			],
+			[
+				"cata",
+				"E:\\workspace\\cataloguesgalore.com.au\\CGAU-WP.sublime-project"
+			],
+			[
+				"cln",
+				"E:\\workspace\\competitionlovers.co.nz\\CLN-WP.sublime-project"
+			],
+			[
+				"bscuk",
+				"E:\\workspace\\babysaversclub.co.uk\\BSCUK-WP.sublime-project"
+			],
+			[
+				"td",
+				"E:\\workspace\\teamdollarsave.com\\TDS-WP.sublime-project"
+			],
+			[
+				"ki",
+				"E:\\workspace\\kiwiopinions.co.nz\\KOP-WP.sublime-project"
+			],
+			[
+				"tds",
+				"E:\\workspace\\teamdollarsave.com\\TDS-WP.sublime-project"
+			],
+			[
+				"au",
+				"E:\\workspace\\aussieopinions.com.au\\AOP-WP.sublime-project"
+			],
+			[
+				"fsgnz",
+				"E:\\workspace\\freesamplegiveaway.co.nz\\FSGNZ-WP.sublime-project"
+			],
+			[
+				"bab",
+				"E:\\workspace\\babysave.com.au\\BSAU-WP.sublime-project"
+			],
+			[
+				"cluk",
+				"E:\\workspace\\competitionlovers.co.uk\\CLUK-WP.sublime-project"
+			],
+			[
+				"clu",
+				"E:\\workspace\\competitionlovers.co.uk\\CLUK-WP.sublime-project"
+			],
+			[
+				"ma",
+				"E:\\workspace\\malaysiafreesamples.com\\MYFREE-WP.sublime-project"
+			],
+			[
+				"bb",
+				"E:\\workspace\\bonusbetbuddy.com.au\\BBB-WP.sublime-project"
+			],
+			[
+				"bo",
+				"E:\\workspace\\#project-files\\BonusBetBuddy-WP.sublime-project"
+			],
+			[
+				"fmj",
+				"E:\\workspace\\#project-files\\FMJUK-COPE.sublime-project"
+			],
+			[
+				"fm",
+				"E:\\workspace\\#project-files\\FMJNZ-COPE.sublime-project"
+			],
+			[
+				"ko",
+				"E:\\workspace\\#project-files\\KOP-WP.sublime-project"
+			],
+			[
+				"kop",
+				"E:\\workspace\\#project-files\\KOP-WP.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 375.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

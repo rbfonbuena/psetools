@@ -1,12 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Main from '@/components/Main'
-import PrivacyPolicy from '@/components/PrivacyPolicy'
-
+import Main from '@/views/Main'
+import PrivacyPolicy from '@/views/PrivacyPolicy'
 Vue.use(Router)
 
 export default new Router({
   mode: 'history',
+  base: process.env.BASE_URL,
   routes: [
     {
       path: '/',
