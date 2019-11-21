@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"Coll",
+				"CollapseItem"
+			],
+			[
 				"admin",
 				"admin_layout"
 			],
@@ -42,10 +50,6 @@
 			[
 				"ini",
 				"ini_set"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"ani",
@@ -510,15 +514,29 @@
 			[
 				"theme",
 				"theme_slug"
-			],
-			[
-				"str_re",
-				"str_replace"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "src/views/Main.vue",
+			"settings":
+			{
+				"buffer_size": 1165,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/router.js",
+			"settings":
+			{
+				"buffer_size": 323,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -531,6 +549,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -562,10 +584,6 @@
 			[
 				"enabl",
 				"Package Control: Enable Package"
-			],
-			[
-				"disab",
-				"Package Control: Disable Package"
 			],
 			[
 				"dis",
@@ -908,24 +926,31 @@
 	},
 	"expanded_folders":
 	[
+		"/E/projects/psetools",
+		"/E/projects/psetools/src",
+		"/E/projects/psetools/src/views"
 	],
 	"file_history":
 	[
-		"/E/projects/psetools/src/views/Main.vue",
-		"/E/projects/psetools/src/components/CalculatorPanel.vue",
-		"/E/projects/psetools/src/views/PrivacyPolicy.vue",
+		"/C/Users/Romano/AppData/Local/Temp/fz3temp-2/index.php",
+		"/E/projects/psetools/src/router.js",
+		"/E/projects/psetools/vue.config.js",
 		"/E/projects/psetools/src/components/Footer.vue",
+		"/E/projects/psetools/src/main.js",
+		"/E/projects/psetools/src/components/CalculatorPanel.vue",
+		"/E/projects/psetools/src/components/CompanyList.vue",
+		"/E/projects/psetools/README.md",
+		"/E/projects/psetools-old/README.md",
+		"/E/projects/psetools/.babelrc",
+		"/E/projects/psetools/src/views/Main.vue",
+		"/E/projects/psetools/src/views/PrivacyPolicy.vue",
 		"/E/projects/psetools/src/App.vue",
 		"/E/projects/psetools/src/components/About.vue",
-		"/E/projects/psetools/src/router.js",
-		"/E/projects/psetools/src/main.js",
 		"/E/projects/psetools/src/components/Header.vue",
 		"/E/projects/psetools/public/index.html",
 		"/E/projects/psetools/package.json",
 		"/E/projects/psetools/src/assets/scss/main.scss",
-		"/E/projects/psetools/src/components/CompanyList.vue",
 		"/E/projects/psetools/src/components/BoardLot.vue",
-		"/C/Users/Romano/AppData/Local/Temp/fz3temp-2/index.php",
 		"/C/Users/Romano/AppData/Local/Temp/fz3temp-2/database.php",
 		"/E/projects/psetools-api/html/index.php",
 		"/E/projects/psetools-old/package.json",
@@ -1034,11 +1059,7 @@
 		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/header5.tpl",
 		"/E/workspace/familysave.com.au/html/content/themes/medicare-child/includes/custom_menu_walker.php",
 		"/G/Movies/Truth.Or.Dare.2018.1080p.WEBRip.x264-[YTS.AM].srt",
-		"/E/workspace/familysave.com.au/html/index.php",
-		"/E/workspace/familysave.com.au/html/content/themes/medicare-child/src/scss/_variables.scss",
-		"/E/workspace/familysave.com.au/html/.htaccess",
-		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/functions.php",
-		"/C/Users/Boyet/AppData/Local/Temp/fz3temp-2/__header.php"
+		"/E/workspace/familysave.com.au/html/index.php"
 	],
 	"find":
 	{
@@ -1121,8 +1142,75 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/views/Main.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1165,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								832,
+								832
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 432.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/router.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

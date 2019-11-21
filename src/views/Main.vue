@@ -30,18 +30,18 @@
 
 <script>
 import Calculator from '@/components/CalculatorPanel.vue'
-import BoardLot from '@/components/BoardLot.vue'
-import CompanyList from '@/components/CompanyList.vue'
-import About from '@/components/About.vue'
+// import BoardLot from '@/components/BoardLot.vue'
+// import CompanyList from '@/components/CompanyList.vue'
+// import About from '@/components/About.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'Main',
   components: {
     Calculator,
-    BoardLot,
-    CompanyList,
-    About,
+    BoardLot: () => import('@/components/BoardLot.vue'),
+    CompanyList: () => import('@/components/CompanyList.vue'),
+    About: () => import('@/components/About.vue'),
     Footer
   },
   data () {
