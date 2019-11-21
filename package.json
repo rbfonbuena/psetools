@@ -26,6 +26,6 @@
     "node-sass": "^4.13.0",
     "sass-loader": "^7.0.1",
     "vue-template-compiler": "^2.5.21",
-    "webpack-bundle-analyzer": "^3.0.3"
+    "webpack-bundle-analyzer": "^3.3.2"
   }
 }
