@@ -239,14 +239,14 @@ export default {
       }
     },
     computeBuyAmount () {
-      let amount = this.tradeCalc.shares * this.tradeCalc.buyingPrice
+      const amount = this.tradeCalc.shares * this.tradeCalc.buyingPrice
       this.grossBuyAmount = amount
       this.buyingFees.brokers = this.getCommission(amount)
       this.setTotalFees(amount)
       this.computeProfit()
     },
     computeSellAmount () {
-      let amount = this.tradeCalc.shares * this.tradeCalc.sellingPrice
+      const amount = this.tradeCalc.shares * this.tradeCalc.sellingPrice
       this.grossSaleAmount = amount
       this.sellingFees.brokers = this.getCommission(amount)
       this.setTotalFees(amount, 'sell')
